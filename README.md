@@ -34,21 +34,27 @@ Passos para Instalação
 3. Configurações adicionais:
 	- Trocar diretorio de onde os arquivos vão ser salvos:
 	  ![Diretorio1](./pics/config-pasta1.png)
-	  ![Diretorio1](./pics/config-pasta2.png)
+	  ![Diretorio2](./pics/config-pasta2.png)
 	
 	- Trocar os Cookies:
 	  ```
 	  GBID=YOUR_GBID_TOKEN
 	  GLBID=YOUR_GLBID_TOKEN
 	  ``` 
-	  ![Diretorio1](./pics/configCookie.png)
+	  ![CookieConf](./pics/configCookie.png)
 Executando o Programa
 ```sh
 python3 main.py
 ```
    
-Desativando o Ambiente Virtual (Opcional)
-- Quando terminar, desative o ambiente virtual rodando:
-  deactivate
+   
+Output esperado se tudo estiver correto:
+![Output](./pics/configCookie.png)
 
+---
+
+obs.: Para pegar canais fechados como BBB, é preciso que sua conta tenha permissão pra acessar a mesma, caso contrario, uma conta gratuita so terá acesso a transmissão aberta! Programa criado visando Provedoras de Internet com serviços de televisão que precisam do link .m3u8 da globo já que eles alteram o link em determinado tempo. Adicionar o Script na Crontab
+
+--- 
+### Aviso importante! **Não apoio nenhum tipo de pirataria** e **não me responsabilizo pelo uso indevido deste código**. Este programa **não foi desenvolvido para burlar sistemas de pagamento ou para acessar conteúdo de maneira ilegal**. **Reforço que é de extrema importância respeitar os direitos autorais e os termos de serviço das plataformas de streaming**.
 
