@@ -49,7 +49,7 @@ python3 main.py
    
    
 Output esperado se tudo estiver correto:
-![Output](./pics/configCookie.png)
+![Output](./pics/proveOfConcept.png)
 
 ---
 
